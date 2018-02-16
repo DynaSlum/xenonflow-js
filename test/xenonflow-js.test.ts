@@ -1,4 +1,4 @@
-import DummyClass from '../src/xenonflow-js'
+import JobService from '../src/xenonflow-js'
 
 /**
  * Dummy test
