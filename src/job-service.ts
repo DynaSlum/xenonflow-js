@@ -20,7 +20,7 @@ export interface JobDescription {
   workflow: string
 }
 
-export default class JobService {
+export class JobService {
   constructor(private api = 'http://localhost:8080/jobs') {}
 
   getJobs(): Promise<Job[]> {

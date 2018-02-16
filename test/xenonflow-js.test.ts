@@ -1,14 +1,10 @@
-import JobService from '../src/xenonflow-js'
+import { JobService } from '../src/xenonflow-js'
 
 /**
  * Dummy test
  */
-describe('Dummy test', () => {
-  it('works if true is truthy', () => {
-    expect(true).toBeTruthy()
-  })
-
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
+describe('Instantiation test', () => {
+  it('JobService is instantiable', () => {
+    expect(new JobService()).toBeInstanceOf(JobService)
   })
 })
